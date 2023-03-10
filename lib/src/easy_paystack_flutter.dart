@@ -1,22 +1,15 @@
+// ignore_for_file: prefer_const_constructors
+
 library easy_paystack_flutter;
 
-import 'package:flutter/material.dart';
+import 'package:easy_paystack_flutter/src/screens/payment_page.dart';
+
 import 'package:get/route_manager.dart';
 
 class EasyPaystackFlutter {
 //print hello
 
-  sayHello() {
-    Get.dialog(AlertDialog(
-      title: Text('Easy Paystack Flutter'),
-      content: Text('This just a demo'),
-      actions: [
-        TextButton(
-            onPressed: () {
-              Get.back();
-            },
-            child: Text('Cancel'))
-      ],
-    ));
+  charge() {
+    Get.to(PaymentPage());
   }
 }
