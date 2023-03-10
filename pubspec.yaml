@@ -1,6 +1,6 @@
 name: easy_paystack_flutter
 description: Accept payment with Paystack on Flutter  (Android, iOs and web).
-version: 0.0.1+1
+version: 0.0.1+2
 homepage:
 
 environment:
