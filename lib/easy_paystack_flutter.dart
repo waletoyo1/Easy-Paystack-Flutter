@@ -1,5 +1,7 @@
 library easy_paystack_flutter;
 
+export 'easy_paystack_flutter.dart';
+
 import 'package:flutter/material.dart';
 import 'package:get/route_manager.dart';
 
